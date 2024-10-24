@@ -1,22 +1,9 @@
 <!DOCTYPE html>
-
-<!--
- // WEBSITE: https://themefisher.com
- // TWITTER: https://twitter.com/themefisher
- // FACEBOOK: https://www.facebook.com/themefisher
- // GITHUB: https://github.com/themefisher/
--->
-
 <html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
+	<head>
+		
+		<meta charset="utf-8">
 	<title>PT PG Candi Baru</title>
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Parallax HTML5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
@@ -49,6 +36,7 @@
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar-nav" data-offset="80">
+	<div class="div">hapus di sini</div>
 	<!--
 	Start Preloader
 	==================================== -->
