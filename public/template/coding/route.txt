@@ -1,0 +1,11 @@
+    // new
+    Route::post('/tambahdama', [DataMahasiswa::class, 'create']);
+    Route::post('/editdama', [DataMahasiswa::class, 'change']);
+
+    Route::get('/tambahuc', [UserControlController::class, 'tambah']);
+    Route::get('/edituc/{id}', [UserControlController::class, 'edit']);
+    Route::post('/hapusuc/{id}', [UserControlController::class, 'hapus']);
+    Route::post('/tambahuc', [UserControlController::class, 'create']);
+    Route::post('/edituc', [UserControlController::class, 'change']);
+
+    Route::post('/uprole/{id}', [UproleController::class, 'index']);
