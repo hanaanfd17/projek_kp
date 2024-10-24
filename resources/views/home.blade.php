@@ -201,6 +201,7 @@ End Sticky Navigation
 					</div>
 				</div>
 			</div>
+			<!-- End About item -->
 		</div> <!-- End row -->
 	</div> <!-- End container -->
 </section> <!-- End section -->
@@ -755,19 +756,16 @@ Start Our Team
 				<!-- section title -->
 				<div class="title text-center wow fadeInDown" data-wow-duration="500ms">
 					<h2><span class="color"> Portal</span></h2>
-					<div class="border" style="margin-bottom: 50px;"></div>
+					<div class="border" style="margin-bottom: 70px;"></div>
 					<div class="logo-candibaru">
 						<a href="">
-							<img src="images/logopgcandibaru.png" class="img-fluid" alt="logo" style="margin-bottom: 30px;">
+							<img src="images/logopgcandibaru.png" class="img-fluid" alt="logo" style="margin-bottom: 50px;">
 						</a>
 					</div>
 					<h2>Nama Website</h2>
 				</div>
 				<!-- /section title -->
 			</div>
-
-
-
 		</div> <!-- End row -->
 	</div> <!-- End container -->
 </section> <!-- End section -->
