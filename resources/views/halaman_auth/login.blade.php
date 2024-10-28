@@ -77,7 +77,7 @@
 					
 					<div class="text-center p-t-46 p-b-20">
 						<span class="txt2">
-							<a href="{{ route('registrasi')}}" class="text-primary">Register</a>or sign up using
+							<a href="{{ route('registrasi')}}" class="text-primary">Register </a>or sign up using
 						</span>
 					</div>
 

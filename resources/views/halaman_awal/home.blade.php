@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		
 		<meta charset="utf-8">
 	<title>PT PG Candi Baru</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,7 +35,6 @@
 </head>
 
 <body id="home" data-spy="scroll" data-target=".navbar-nav" data-offset="80">
-	<div class="div">hapus di sini</div>
 	<!--
 	Start Preloader
 	==================================== -->
@@ -103,10 +101,7 @@ Sticky Navigation
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#products">Products</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#our-team">Team</a>
@@ -130,7 +125,7 @@ End Sticky Navigation
 <!--
 		Start About Section
 		==================================== -->
-<section class="bg-one about section">
+<section class="bg-one about section" id="about">
 	<div class="container">
 		<div class="row">
 
@@ -190,7 +185,7 @@ End Sticky Navigation
 	</div> <!-- End container -->
 </section> <!-- End section -->
 
-<section class="section about-2 padding-0 backgroundT" id="about">
+<section class="section about-2 padding-0 backgroundT">
 	<div class="container-fluid p-0">
 		<div class="row no-gutters align-items-center">
 			<div class="col-lg-6">
@@ -242,68 +237,74 @@ Start Call To Action
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2>Great Design & Incredible Features</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
-				<a href="contact.html" class="btn btn-main">Start a project with us</a>
+				<h2>Tinggalkan Pesan Untuk Kami</h2>
+				<p>Pesan yang anda kirimkan dapat membantu kami terus memperbaiki kualitas produk kami. 
+				<br>Gabung bersama kami. </p>
+				<a class="btn btn-main" href="#contact-us">Hubungi Kami</a>
 			</div>
 		</div> <!-- End row -->
 	</div> <!-- End container -->
 </section> <!-- End section -->
 
-<!-- Start Services Section
+<!-- Start Products Section
 ==================================== -->
-<section id="services" class="bg-one section">
+<section id="products" class="bg-one section">
 	<div class="container">
-		<div class="row">
-
+		<div class="row ">
 			<div class="col-lg-12">
 				<!-- section title -->
-				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+				<div class="title text-center">
 					<h2>Our <span class="color">Products</span></h2>
 					<div class="border"></div>
 				</div>
 				<!-- /section title -->
+			</div> <!-- /end col-lg-12 -->
+		</div> <!-- end row -->
+
+		<div class="row mx-auto filtr-container">
+			<div class="filtr-item col-lg-4 col-md-6" data-category="development">
+				<div class="portfolio-block">
+					<img src="images/portfolio/rajagula.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/rajagula.jpg"
+							data-lightbox="image-1">
+							<i class="tf-ion-android-search"></i>
+						</a>
+						<h4><a href="">Produk Gula</a></h4>
+						<p class="mb-0">Produk unggulan dari tebu - tebu pilihan yang manis bersih dan segar</p>
+					</div>
+				</div>
 			</div>
-
-			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="tf-globe"></i>
+			<div class="filtr-item col-lg-4 col-md-6" data-category="design">
+				<div class="portfolio-block">
+					<img src="images/portfolio/produktetes.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/produktetes.jpg"
+							data-lightbox="image-1">
+							<i class="tf-ion-android-search"></i>
+						</a>
+						<h4><a href="">Produk Tetes</a></h4>
+						<p class="mb-0">Produk tetes dengan kualitas terbaik</p>
 					</div>
-					<h3>Produk Gula</h3>
-					<p>Produk unggulan dari tebu - tebu pilihan yang manis bersih dan segar</p>
 				</div>
-			</article>
-			<!-- End Single Service Item -->
-
-			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="tf-ion-laptop"></i>
+			</div>
+			<div class="filtr-item col-lg-4 col-md-6" data-category="design, development">
+				<div class="portfolio-block">
+					<img src="images/portfolio/ampas.jpg" alt="">
+					<div class="caption">
+						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/ampas.jpg"
+							data-lightbox="image-1">
+							<i class="tf-ion-android-search"></i>
+						</a>
+						<h4><a href="">Produk Ampas</a></h4>
+						<p class="mb-0">Produk ampas yang bersih dan murni dari hasil tebu produksi sendiri</p>
 					</div>
-					<h3>Produk Tetes</h3>
-					<p>Produk tetes dengan kualitas terbaik</p>
 				</div>
-			</article>
-			<!-- End Single Service Item -->
-
-			<!-- Single Service Item -->
-			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="service-block text-center">
-					<div class="service-icon text-center">
-						<i class="tf-genius"></i>
-					</div>
-					<h3>Produk Ampas</h3>
-					<p>Produk ampas yang bersih dan murni dari hasil tebu produksi sendiri</p>
-				</div>
-			</article>
-			<!-- End Single Service Item -->
-
-		</div> <!-- End row -->
-	</div> <!-- End container -->
-</section> <!-- End section -->
+			</div>
+		</div>
+	</div>
+</section> 
+<!-- End section -->
 
 <!-- Start Team Skills
 		=========================================== -->
@@ -377,152 +378,7 @@ Start Call To Action
 	</div> <!-- End container -->
 </section> <!-- End section -->
 
-<!-- Start Portfolio Section
-=========================================== -->
 
-<section class="portfolio section" id="portfolio">
-	<div class="container">
-		<div class="row ">
-			<div class="col-lg-12">
-				<!-- section title -->
-				<div class="title text-center">
-					<h2>Our <span class="color">Works</span></h2>
-					<div class="border"></div>
-				</div>
-				<!-- /section title -->
-			</div> <!-- /end col-lg-12 -->
-		</div> <!-- end row -->
-		<div class="row">
-			<div class="col-md-12">
-				<div class="portfolio-filter">
-					<button class="active" type="button" data-filter="all">All</button>
-					<button type="button" data-filter="photography">Photography</button>
-					<button type="button" data-filter="design">Design</button>
-					<button type="button" data-filter="development">Development</button>
-				</div>
-			</div>
-		</div>
-		<div class="row mx-auto filtr-container">
-			<div class="filtr-item col-lg-4 col-md-6" data-category="development">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-1.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="design">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-2.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Sound system</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="design, development">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-3.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Clock Product</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="photography, development">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-4.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-4.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Bottol Label</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="design">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-5.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-5.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Shopping Bag</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="photography">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-6.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-6.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="design">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-7.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-7.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Business Card</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="design">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-8.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-8.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Stationary Design</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-			<div class="filtr-item col-lg-4 col-md-6" data-category="photography, development">
-				<div class="portfolio-block">
-					<img src="images/portfolio/portfolio-1.jpg" alt="">
-					<div class="caption">
-						<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg"
-							data-lightbox="image-1">
-							<i class="tf-ion-android-search"></i>
-						</a>
-						<h4><a href="">Tag Design</a></h4>
-						<p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> <!-- end container -->
-</section> <!-- End section -->
 
 <!--
 Start Counter Section
@@ -536,8 +392,8 @@ Start Counter Section
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
 				<div class="counters-item">
 					<i class="tf-ion-android-happy"></i>
-					<span class="jsCounter" data-count="320">0</span>
-					<h3>Happy Clients</h3>
+					<span class="jsCounter" data-count="5000">0</span>
+					<h3>Mitra Petani</h3>
 				</div>
 			</div>
 			<!-- end first count item -->
@@ -548,7 +404,7 @@ Start Counter Section
 				<div class="counters-item">
 					<i class="tf-ion-archive"></i>
 					<span class="jsCounter" data-count="565">0</span>
-					<h3>Projects completed</h3>
+					<h3>Kebun Tebu</h3>
 				</div>
 			</div>
 			<!-- end second count item -->
@@ -558,8 +414,8 @@ Start Counter Section
 				data-wow-delay="400ms">
 				<div class="counters-item">
 					<i class="tf-ion-thumbsup"></i>
-					<span class="jsCounter" data-count="95">0</span>
-					<h3>Positive feedback</h3>
+					<span class="jsCounter" data-count="52500">0</span>
+					<h3>Umpan Balik Positif</h3>
 
 				</div>
 			</div>
@@ -570,8 +426,8 @@ Start Counter Section
 				data-wow-delay="600ms">
 				<div class="counters-item kill-margin-bottom">
 					<i class="tf-ion-coffee"></i>
-					<span class="jsCounter" data-count="2500">0</span>
-					<h3>Cups of Coffee</h3>
+					<span class="jsCounter" data-count="5000000">0</span>
+					<h3>Produksi Gula</h3>
 				</div>
 			</div>
 			<!-- end fourth count item -->
@@ -619,8 +475,8 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Abul Mal Muhit</h4>
-						<span>CEO/Founder</span>
+						<h4 class="h5">Hanaan Firdaus Dewanto</h4>
+						<span>Intern</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
 					<!-- /member name & designation -->
@@ -652,8 +508,8 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Frank Miller</h4>
-						<span>Manager</span>
+						<h4 class="h5">Vrayoga Loreansa</h4>
+						<span>Intern</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
 					<!-- /member name & designation -->
@@ -684,8 +540,8 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Michael Jonson</h4>
-						<span>Web Developer</span>
+						<h4 class="h5">Muhammad Nabil</h4>
+						<span>Intern</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
 					<!-- /member name & designation -->
@@ -716,8 +572,8 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4 class="h5">Mo. Kha. Alamgir</h4>
-						<span>SEO Specialist</span>
+						<h4 class="h5">Hendro Prasetyo</h4>
+						<span>Intern</span>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
 					</div>
 					<!-- /member name & designation -->
@@ -738,83 +594,73 @@ Start Our Team
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<!-- testimonial wrapper -->
 				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 
-					<!-- testimonial single -->
 					<div class="item text-center">
 
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-fluid" alt="Meghna">
-						</div>
-						<!-- /client photo -->
+						<div class="title text-center">
+                            <img src="images/about/kebuntebu.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
 
-						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt
-									voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis
-									ratione non consequuntur!</p>
+								<h1>Kebun Tebu Pilihan</h1>
 							</div>
 						</div>
-						<!-- /client info -->
 					</div>
-					<!-- /testimonial single -->
 
-					<!-- testimonial single -->
 					<div class="item text-center">
 
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-2.jpg" class="img-fluid" alt="Meghna">
-						</div>
-						<!-- /client photo -->
+						<div class="title text-center">
+                            <img src="images/about/monitoring.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
 
-						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reiciendis qui in laborum obcaecati
-									expedita blanditiis animi placeat, nemo exercitationem porro. Consequuntur qui commodi minima
-									molestiae, dolores reprehenderit nemo inventore.</p>
+								<h1>Inovasi Monitoring Kebun</h1>
 							</div>
 						</div>
-						<!-- /client info -->
 					</div>
-					<!-- /testimonial single -->
 
-					<!-- testimonial single -->
 					<div class="item text-center">
 
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-fluid" alt="Meghna">
-						</div>
-						<!-- /client photo -->
+						<div class="title text-center">
+                            <img src="images/about/angkut.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
 
-						<!-- client info -->
 						<div class="client-info">
 							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorem non delectus neque,
-									voluptatem accusamus atque expedita doloribus minima iusto nemo, numquam eos quia maiores harum!
-									Quaerat illum beatae necessitatibus!</p>
+								<h1>Proses Tebang Angkut</h1>
 							</div>
 						</div>
-						<!-- /client info -->
 					</div>
-					<!-- /testimonial single -->
+
+					<div class="item text-center">
+
+						<div class="title text-center">
+                            <img src="images/about/kebunmitra.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
+
+						<div class="client-info">
+							<div class="client-meta">
+								<h1>Monitoring Kebun Mitra</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="item text-center">
+
+						<div class="title text-center">
+                            <img src="images/about/petani.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
+
+						<div class="client-info">
+							<div class="client-meta">
+								<h1>Mitra Petani</h1>
+							</div>
+						</div>
+					</div>
+
 
 				</div> <!-- end testimonial wrapper -->
 			</div> <!-- end col lg 12 -->
@@ -912,6 +758,8 @@ Start Our Team
 			<div class="col-12">
 				<!-- section title -->
 				<div class="title text-center wow fadeIn" data-wow-duration="500ms">
+					<br>
+					<br>
 					<h2>Get In <span class="color">Touch</span></h2>
 					<div class="border"></div>
 				</div>
@@ -920,29 +768,22 @@ Start Our Team
 
 			<!-- Contact Details -->
 			<div class="contact-info col-lg-6 wow fadeInUp" data-wow-duration="500ms">
-				<h3>Contact Details</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex
-					explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore
-					adipisci.</p>
+				<h3>Hubungi Kami</h3>
+				<p>Pesan yang anda kirimkan dapat membantu kami terus memperbaiki kualitas produk kami. Gabung bersama kami.</p>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
-						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+						<span>Jl Raya Candi No. 10 Sidoarjo (61271) - Jawa Timur - Indonesia</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Phone: +880-31-000-000</span>
-					</div>
-
-					<div class="con-info clearfix">
-						<i class="tf-ion-iphone"></i>
-						<span>Fax: +880-31-000-000</span>
+						<span>Phone: +62318921003 - 4, +62318921002</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
-						<span>Email: hello@meghna.com</span>
+						<span>Email: pgcandibaru@gmail.com</span>
 					</div>
 				</div>
 			</div>
@@ -953,19 +794,19 @@ Start Our Team
 				<form id="contact-form" method="post" action="sendmail.php" role="form">
 
 					<div class="form-group">
-						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
+						<input type="text" placeholder="Nama Lengkap" class="form-control" name="name" id="name">
 					</div>
 
 					<div class="form-group">
-						<input type="email" placeholder="Your Email" class="form-control" name="email" id="email">
+						<input type="email" placeholder="Alamat Email" class="form-control" name="email" id="email">
 					</div>
 
 					<div class="form-group">
-						<input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
+						<input type="text" placeholder="Perihal" class="form-control" name="subject" id="subject">
 					</div>
 
 					<div class="form-group">
-						<textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
+						<textarea rows="6" placeholder="Pesan" class="form-control" name="message" id="message"></textarea>
 					</div>
 
 					<div id="cf-submit">
@@ -1023,9 +864,8 @@ Start Our Team
 					</a>
 
 					<p class="mt-3">Copyright
-						&copy; <script>
-							document.write(new Date().getFullYear())
-						</script>. All Rights Reserved. <br> Designed &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>.</p>
+						&copy; 2024
+						. All Rights Reserved. <br> IT PGCB</a>.</p>
 				</div>
 				<!-- /copyright -->
 

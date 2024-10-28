@@ -16,7 +16,7 @@ html {
 body {
   background-color: #353b43;
   font-family: "Anaheim", sans-serif;
-  color: #737f8a;
+  color: #ffffff;
   -webkit-font-smoothing: antialiased;
   position: relative;
 }
@@ -1952,3 +1952,9 @@ blockquote {
   margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
