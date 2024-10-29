@@ -56,6 +56,7 @@
 	
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
+						
 									<input class="input100" type="password" name="password">	</div>
 					
 					<div style="margin : 20px 20px 40px 20px;" >

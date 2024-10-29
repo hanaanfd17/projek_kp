@@ -74,6 +74,12 @@ class AuthController extends Controller
         ];
     
         User::create($inforegister);
-         
+
+        $details = [
+            'name' => $inforegister['fullname'],
+            'role' => 'user',
+            'web' => 'PG CANDI BARU',
+            'url' => 'http://'. request()->getHttpHost() . "/" . "verify/".$inforegister['verify_key'], 
+        ];
     }
 }
