@@ -13,7 +13,7 @@
   <meta name="theme-name" content="meghna" />
   
   <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="images/logopgcandibaru.png" />
 
 	<!-- CSS
 		================================================== -->
@@ -103,11 +103,14 @@ Sticky Navigation
           <li class="nav-item">
             <a class="nav-link" href="#products">Products</a>
           </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#our-team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#blog">Blog</a>
+            <a class="nav-link" href="#news">News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contact-us">Contact</a>
@@ -240,7 +243,7 @@ Start Call To Action
 				<h2>Tinggalkan Pesan Untuk Kami</h2>
 				<p>Pesan yang anda kirimkan dapat membantu kami terus memperbaiki kualitas produk kami. 
 				<br>Gabung bersama kami. </p>
-				<a class="btn btn-main" href="#contact-us">Hubungi Kami</a>
+				<a class="btn btn-main smooth-scroll" href="#contact-us">Hubungi Kami</a>
 			</div>
 		</div> <!-- End row -->
 	</div> <!-- End container -->
@@ -306,296 +309,25 @@ Start Call To Action
 </section> 
 <!-- End section -->
 
-<!-- Start Team Skills
+<!-- Start Projects
 		=========================================== -->
 
-<section id="team-skills" class="parallax-section section section-bg overly">
+<section id="projects" class="parallax-section section section-bg overly">
 	<div class="container">
 		<div class="row">
 			<!-- section title -->
 			<div class="col-md-12">
 				<div class="title text-center">
-					<h2>Our <span class="color">Skills</span></h2>
+					<h2>Our <span class="color">Projects</span></h2>
 					<div class="border"></div>
 				</div>
 			</div>
 			<!-- /section title -->
 		</div> <!-- End row -->
 		<div class="row">
-			<div class="col-md-6">
-				<h2>We’ve skilled in wide range of web and <br>
-					Other digital market tools.</h2>
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae
-					sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis
-					tempora!</p>
-				<img class="img-fluid" src="images/about/company-growth.png" alt="">
-			</div>
-			<div class="col-md-6 mt-4 mt-md-0">
-				<ul class="skill-bar">
-					<li>
-						<p><span>01-</span> Business Development</p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-								style="width:90%">
-							</div>
-						</div>
-					</li>
-					<li>
-						<p><span>02-</span> Analysis</p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-								style="width:70%">
-							</div>
-						</div>
-					</li>
-					<li>
-						<p><span>03-</span> Design</p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-								style="width:85%">
-							</div>
-						</div>
-					</li>
-					<li>
-						<p><span>04-</span> IOS Development</p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-								style="width:60%">
-							</div>
-						</div>
-					</li>
-					<li>
-						<p><span>04-</span> Andriod Development</p>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"
-								style="width:94%">
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div> <!-- End container -->
-</section> <!-- End section -->
-
-
-
-<!--
-Start Counter Section
-==================================== -->
-
-<section id="counter" class="parallax-section bg-1 section overly">
-	<div class="container">
-		<div class="row">
-
-			<!-- first count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
-				<div class="counters-item">
-					<i class="tf-ion-android-happy"></i>
-					<span class="jsCounter" data-count="5000">0</span>
-					<h3>Mitra Petani</h3>
-				</div>
-			</div>
-			<!-- end first count item -->
-
-			<!-- second count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
-				data-wow-delay="200ms">
-				<div class="counters-item">
-					<i class="tf-ion-archive"></i>
-					<span class="jsCounter" data-count="565">0</span>
-					<h3>Kebun Tebu</h3>
-				</div>
-			</div>
-			<!-- end second count item -->
-
-			<!-- third count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
-				data-wow-delay="400ms">
-				<div class="counters-item">
-					<i class="tf-ion-thumbsup"></i>
-					<span class="jsCounter" data-count="52500">0</span>
-					<h3>Umpan Balik Positif</h3>
-
-				</div>
-			</div>
-			<!-- end third count item -->
-
-			<!-- fourth count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
-				data-wow-delay="600ms">
-				<div class="counters-item kill-margin-bottom">
-					<i class="tf-ion-coffee"></i>
-					<span class="jsCounter" data-count="5000000">0</span>
-					<h3>Produksi Gula</h3>
-				</div>
-			</div>
-			<!-- end fourth count item -->
-
-		</div> <!-- end row -->
-	</div> <!-- end container -->
-</section> <!-- end section -->
-
-<!-- 
-Start Our Team
-=========================================== -->
-
-<section id="our-team" class="section">
-	<div class="container">
-		<div class="row">
-
-			<div class="col-lg-12">
-				<!-- section title -->
-				<div class="title text-center wow fadeInUp" data-wow-duration="500ms">
-					<h2>Our <span class="color">Team</span></h2>
-					<div class="border"></div>
-				</div>
-				<!-- /section title -->
-			</div>
-
-			<!-- team member -->
-			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms">
-				<div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-fluid" src="images/team/team-1.jpg" alt="Meghna">
-						<!-- /member photo -->
-
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4 class="h5">Hanaan Firdaus Dewanto</h4>
-						<span>Intern</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-
-				</div>
-			</div>
-			<!-- end team member -->
-
-			<!-- team member -->
-			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-fluid" src="images/team/team-2.jpg" alt="Meghna">
-						<!-- /member photo -->
-
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4 class="h5">Vrayoga Loreansa</h4>
-						<span>Intern</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-				</div>
-			</div>
-			<!-- end team member -->
-
-			<!-- team member -->
-			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-fluid" src="images/team/team-3.jpg" alt="Meghna">
-						<!-- /member photo -->
-
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4 class="h5">Muhammad Nabil</h4>
-						<span>Intern</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-				</div>
-			</div>
-			<!-- end team member -->
-
-			<!-- team member -->
-			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="600ms">
-				<div class="team-member">
-					<div class="member-photo">
-						<!-- member photo -->
-						<img class="img-fluid" src="images/team/team-4.jpg" alt="Meghna">
-						<!-- /member photo -->
-
-						<!-- member social profile -->
-						<div class="mask">
-							<ul class="list-inline">
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li class="list-inline-item"><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-							</ul>
-						</div>
-						<!-- /member social profile -->
-					</div>
-
-					<!-- member name & designation -->
-					<div class="member-meta">
-						<h4 class="h5">Hendro Prasetyo</h4>
-						<span>Intern</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
-					</div>
-					<!-- /member name & designation -->
-					<!-- /about member -->
-				</div>
-			</div>
-			<!-- end team member -->
-
-		</div> <!-- End row -->
-	</div> <!-- End container -->
-</section> <!-- End section -->
-
-
-<!-- Start Testimonial
-=========================================== -->
-
-<section id="testimonial" class="testimonial overly section bg-2">
-	<div class="container">
-		<div class="row">
 			<div class="col-lg-12">
 				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
-
+					
 					<div class="item text-center">
 
 						<div class="title text-center">
@@ -661,22 +393,244 @@ Start Our Team
 						</div>
 					</div>
 
+					<div class="item text-center">
+
+						<div class="title text-center">
+                            <img src="images/about/drone.jpg" class="img-fluid centered-image" alt="Meghna">
+                        </div>
+
+						<div class="client-info">
+							<div class="client-meta">
+								<h1>Inovasi Drone Surveillance</h1>
+							</div>
+						</div>
+					</div>
 
 				</div> <!-- end testimonial wrapper -->
 			</div> <!-- end col lg 12 -->
 		</div> <!-- End row -->
 	</div> <!-- End container -->
-</section> <!-- End Section -->
+</section> <!-- End section -->
+
+
+
+<!--
+Start Counter Section
+==================================== -->
+
+<section id="counter" class="parallax-section bg-1 section overly">
+	<div class="container">
+		<div class="row">
+
+			<!-- first count item -->
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
+				<div class="counters-item">
+					<i class="tf-ion-person"></i>
+					<span class="jsCounter" data-count="1025">0</span>
+					<h3>Mitra Petani</h3>
+				</div>
+			</div>
+			<!-- end first count item -->
+
+			<!-- second count item -->
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+				data-wow-delay="200ms">
+				<div class="counters-item">
+					<i class="tf-ion-leaf"></i>
+					<span class="jsCounter" data-count="1205">0</span>
+					<h3>Kebun Tebu</h3>
+				</div>
+			</div>
+			<!-- end second count item -->
+
+			<!-- third count item -->
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+				data-wow-delay="400ms">
+				<div class="counters-item">
+					<i class="tf-ion-thumbsup"></i>
+					<span class="jsCounter" data-count="2500">0</span>
+					<h3>Umpan Balik Positif</h3>
+
+				</div>
+			</div>
+			<!-- end third count item -->
+
+			<!-- fourth count item -->
+			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms"
+				data-wow-delay="600ms">
+				<div class="counters-item kill-margin-bottom">
+					<i class="tf-ion-speedometer"></i>
+					<span class="jsCounter" data-count="3000">0</span>
+					<h3>Ton Tebu/Hari</h3>
+				</div>
+			</div>
+			<!-- end fourth count item -->
+
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- end section -->
+
+<!-- 
+Start Our Team
+=========================================== -->
+
+<section id="our-team" class="section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-12">
+				<!-- section title -->
+				<div class="title text-center wow fadeInUp" data-wow-duration="500ms">
+					<h2>Our <span class="color">Team</span></h2>
+					<div class="border"></div>
+				</div>
+				<!-- /section title -->
+			</div>
+
+			<!-- team member -->
+			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms">
+				<div class="team-member">
+					<div class="member-photo">
+						<!-- member photo -->
+						<img class="img-fluid" src="images/team/hanaan.jpg" alt="Meghna">
+						<!-- /member photo -->
+
+						<!-- member social profile -->
+						<div class="mask">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="https://www.instagram.com/hanaan_firdaus"><i class="tf-ion-social-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- /member social profile -->
+					</div>
+
+					<!-- member name & designation -->
+					<div class="member-meta">
+						<h4 class="h5">Hanaan Firdaus Dewanto</h4>
+						<span>Intern</span>
+						<p>Mahasiswa S1 Jurusan Sistem Informasi Bina Nusantara Malang</p>
+					</div>
+					<!-- /member name & designation -->
+					<!-- /about member -->
+
+				</div>
+			</div>
+			<!-- end team member -->
+
+			<!-- team member -->
+			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="200ms">
+				<div class="team-member">
+					<div class="member-photo">
+						<!-- member photo -->
+						<img class="img-fluid" src="images/team/yoga.jpg" alt="Meghna">
+						<!-- /member photo -->
+
+						<!-- member social profile -->
+						<div class="mask">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="https://www.instagram.com/vrayoga_"><i class="tf-ion-social-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- /member social profile -->
+					</div>
+
+					<!-- member name & designation -->
+					<div class="member-meta">
+						<h4 class="h5">Vrayoga Loreansa</h4>
+						<span>Intern</span>
+						<p>Mahasiswa D3 Teknik Informatika Politeknik Elektronika Negeri Surabaya</p>
+					</div>
+					<!-- /member name & designation -->
+					<!-- /about member -->
+				</div>
+			</div>
+			<!-- end team member -->
+
+			<!-- team member -->
+			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="400ms">
+				<div class="team-member">
+					<div class="member-photo">
+						<!-- member photo -->
+						<img class="img-fluid" src="images/team/nabil.jpg" alt="Meghna">
+						<!-- /member photo -->
+
+						<!-- member social profile -->
+						<div class="mask">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="https://www.instagram.com/nbryyn"><i class="tf-ion-social-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- /member social profile -->
+					</div>
+
+					<!-- member name & designation -->
+					<div class="member-meta">
+						<h4 class="h5">Muhammad Nabil</h4>
+						<span>Intern</span>
+						<p>Mahasiswa D3 Teknik Informatika Politeknik Elektronika Negeri Surabaya</p>
+					</div>
+					<!-- /member name & designation -->
+					<!-- /about member -->
+				</div>
+			</div>
+			<!-- end team member -->
+
+			<!-- team member -->
+			<div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="500ms" data-wow-delay="600ms">
+				<div class="team-member">
+					<div class="member-photo">
+						<!-- member photo -->
+						<img class="img-fluid" src="images/team/hendro.jpg" alt="Meghna">
+						<!-- /member photo -->
+
+						<!-- member social profile -->
+						<div class="mask">
+							<ul class="list-inline">
+								<li class="list-inline-item"><a href="https://www.instagram.com/setyve_v2"><i class="tf-ion-social-instagram"></i></a></li>
+							</ul>
+						</div>
+						<!-- /member social profile -->
+					</div>
+
+					<!-- member name & designation -->
+					<div class="member-meta">
+						<h4 class="h5">Hendro Prasetyo</h4>
+						<span>Intern</span>
+						<p>Mahasiswa D3 Teknik Informatika Politeknik Elektronika Negeri Surabaya</p>
+					</div>
+					<!-- /member name & designation -->
+					<!-- /about member -->
+				</div>
+			</div>
+			<!-- end team member -->
+
+		</div> <!-- End row -->
+	</div> <!-- End container -->
+</section> <!-- End section -->
+
+<!-- Start Socials Section
+=========================================== -->
+<section class="call-to-action section-sm bg-1 overly">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Berhubung Dengan Kami di Media Sosial</h2>
+				<a class="btn btn-main smooth-scroll" href="#social">Media Sosial</a>
+				</div>
+			</div>
+		</div> <!-- End row -->
+	</div> <!-- End container -->
+</section> <!-- End section -->
 
 <!-- Start Blog Section
 =========================================== -->
-<section id="blog" class="section">
+<section id="news" class="section">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
 				<!-- section title -->
 				<div class="title text-center wow fadeInDown">
-					<h2> Latest <span class="color">Posts</span></h2>
+					<h2> Latest <span class="color">News and Articles</span></h2>
 					<div class="border"></div>
 				</div>
 				<!-- /section title -->
@@ -686,12 +640,11 @@ Start Our Team
 			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms">
 				<div class="post-block">
 					<div class="media-wrapper">
-						<img src="images/blog/blog-post-1.jpg" alt="amazing caves coverimage" class="img-fluid">
+						<img src="images/blog/berita1.jpeg" alt="amazing caves coverimage" class="img-fluid">
 					</div>
 					<div class="content">
-						<h3><a href="blog.html">Simple Image Post</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<h3><a href="blog.html">Topik K3 Bulan Juni : Bahaya Listrik</a></h3>
+						<p>Bahaya listrik ada di hampir semua tempat kerja karena menggunakan listrik sebagai sumber energinya...</p>
 						<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 					</div>
 				</div>
@@ -701,22 +654,12 @@ Start Our Team
 			<!-- single blog post -->
 			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="post-block">
-					<div id="gallery-post" class="media-wrapper">
-						<div class="item">
-							<img src="images/blog/blog-post-1.jpg" alt="blog post" class="img-fluid">
-						</div>
-						<div class="item">
-							<img src="images/blog/blog-post-3.jpg" alt="blog post" class="img-fluid">
-						</div>
-						<div class="item">
-							<img src="images/blog/blog-post-2.jpg" alt="blog post | Meghna" class="img-fluid">
-						</div>
+					<div class="media-wrapper">
+						<img src="images/blog/berita2.jpeg" alt="amazing caves coverimage" class="img-fluid">
 					</div>
-
 					<div class="content">
-						<h3><a href="blog.html">Simple Slider Post</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<h3><a href="blog.html">Security Wanita</a></h3>
+						<p>Meskipun pekerjaan menjaga keamanan terkesan sangat maskulin, tapi di era sekarang ini, pekerjaan tersebut...</p>
 						<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 					</div>
 				</div>
@@ -727,13 +670,12 @@ Start Our Team
 			<article class="col-lg-4 col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="post-block">
 					<div class="media-wrapper">
-						<img src="images/blog/blog-post-6.jpg" alt="amazing caves coverimage" class="img-fluid">
+						<img src="images/blog/berita3.jpg" alt="amazing caves coverimage" class="img-fluid">
 					</div>
 
 					<div class="content">
-						<h3><a href="blog.html">Simple Image Post</a></h3>
-						<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf
-							moon officia aute, non skateboard dolor brunch.</p>
+						<h3><a href="blog.html">Hari Kebangkitan Nasional ke-116</a></h3>
+						<p>Hari Kebangkitan Nasional adalah momentum bagi kita semua untuk bersatu dalam semangat kebangsaan...</p>
 						<a class="btn btn-transparent" href="blog-single.html">Read more</a>
 					</div>
 				</div>
@@ -831,6 +773,7 @@ Start Our Team
 
 <!-- end Contact Area
 ========================================== -->
+<section id="social">
 <footer id="footer" class="bg-one">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
@@ -839,11 +782,9 @@ Start Our Team
 				<!-- Footer Social Links -->
 				<div class="social-icon">
 					<ul class="list-inline">
-						<li class="list-inline-item"><a href="https://facebook.com/themefisher"><i class="tf-ion-social-facebook"></i></a></li>
-						<li class="list-inline-item"><a href="https://twitter.com/themefisher"><i class="tf-ion-social-twitter"></i></a></li>
-						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCx9qVW8VF0LmTi4OF2F8YdA"><i class="tf-ion-social-youtube"></i></a></li>
-						<li class="list-inline-item"><a href="https://dribbble.com/themefisher"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-						<li class="list-inline-item"><a href="https://pinterest.com/themefisher"><i class="tf-ion-social-pinterest-outline"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.facebook.com/pg.candibaru.9"><i class="tf-ion-social-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.instagram.com/pg_candibaru"><i class="tf-ion-social-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="https://www.youtube.com/@pgcandibaru2647"><i class="tf-ion-social-youtube"></i></a></li>
 					</ul>
 				</div>
 				<!--/. End Footer Social Links -->
@@ -873,6 +814,7 @@ Start Our Team
 		</div> <!-- end row -->
 	</div> <!-- end container -->
 </footer> <!-- end footer -->
+</section>
 
 	<!-- 
 	Essential Scripts

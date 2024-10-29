@@ -117,9 +117,9 @@
 	//Init the carousel
 	$('#testimonials').slick({
 		infinite: true,
-		arrows: false,
+		arrows: true,
 		autoplay: true,
-		autoplaySpeed: 4000
+		autoplaySpeed: 2000
 	});
 
 
