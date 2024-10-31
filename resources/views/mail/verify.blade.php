@@ -29,7 +29,7 @@
         <tr>
             <td>Website</td>
             <td>:</td>
-            <td>{{ $details['website'] }}</td>
+            <td>{{ $details['web'] }}</td>
         </tr>
         <tr>
             <td>Tanggal Register</td>

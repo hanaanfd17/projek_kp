@@ -37,7 +37,22 @@
 					<span class="login100-form-title p-b-43">
 						Register to continue
 					</span>
-					@extends('template.pesan.alert')
+					@if ($errors->any())
+						<div class="alert alert-danger">
+							<ul>
+								@foreach ($errors->all() as $item)
+									<li>{{ $item }}</li>
+								@endforeach
+							</ul>
+						</div>
+					@endif
+					@if (Session::get('succes'))
+						<div class="alert alert-succes alert-dismissible fade show">
+							<ul>
+							<li>{{ Session::get('succes') }}</li>
+							</ul>
+						</div>
+					@endif
 					
 					<div class="wrap-input100 validate-input" data-validate = "Valid fullname is required: ex@abc.xyz">
 						<input class="input100" type="text" name="fullname">
