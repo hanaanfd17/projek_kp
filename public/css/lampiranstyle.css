@@ -1,0 +1,119 @@
+body  {
+    height: 100vh; 
+    background-image: url('https://images.pexels.com/photos/2098427/pexels-photo-2098427.jpeg');
+    background-size:cover;
+    -webkit-animation: slidein 100s;
+    animation: slidein 100s;
+
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+
+  .underline {
+      text-decoration: underline;
+  }
+  .container {
+      width: 55%;
+      margin: auto;
+  }
+  .header, .content, .footer {
+      border: 1px solid transparent;
+      
+  }
+  .header table, .content table {
+      width: 100%;
+      border-collapse: collapse;
+  }
+  .header td, .content td {
+      border: 1px solid transparent;
+  }
+  .footer table {
+      width: 100%;
+  }
+  .footer td {
+      padding: 5px;
+  }
+  .header-text {
+      text-align: center;
+  }
+  .center-text {
+      text-align: center;
+  }
+  .line {
+      border-top: 1px solid #000;
+      margin: 20px 0;
+  }
+  .closing {
+position: relative;
+padding: 10px;
+background: linear-gradient(135deg, #ffffff, #f0f0f0);
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+          0 4px 8px rgba(0, 0, 0, 0.1);
+
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg);
+transform-style: preserve-3d; 
+perspective: 1500px; 
+
+animation: floating 100s infinite ease-in-out;
+}
+
+@keyframes floating {
+0% {
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg) translateY(0) rotateZ(0);
+}
+25% {
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg) translateY(-30px) rotateZ(-15deg);
+}
+50% {
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg) translateY(0) rotateZ(0);
+}
+75% {
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg) translateY(30px) rotateZ(15deg);
+}
+100% {
+transform: rotateX(-60deg) rotateY(10deg) rotateZ(-7deg) translateY(0) rotateZ(0);
+}
+}
+
+.closingorig {
+position: relative;
+padding: 10px;
+margin-right: 10%;
+    margin-left: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
+background: white;
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 
+          0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media print {
+    body {
+        font-size: 7px !important;
+    }
+    
+    .closing, .closingorig {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    .hidden {
+        display: none !important;
+    }
+}
