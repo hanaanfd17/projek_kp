@@ -11,7 +11,7 @@
     <aside id="layout-menu" class="layout-menu menu-vertical menu active" data-simplebar>
     <ul class="menu-inner">
         <li class="menu-item ">
-            <a href="chat.html" class="menu-item">
+            <a href="chat.html" class="menu-link">
             <i data-feather="grid" class="menu-icon tf-icons"></i>
             <span class="title">Dashboard</span>
             </a>
