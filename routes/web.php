@@ -35,3 +35,8 @@ Route::get('/data-report', [DocumentController::class, 'showReport']);
 Route::get('/api/report-data/{id}', [DocumentController::class, 'getReportData']);
 Route::get('/data-masuk', [DocumentController::class, 'showDataMasuk']);
 Route::get('/api/data-masuk', [DocumentController::class, 'getDataMasuk']);
+
+
+Route::get('/view', function () {
+    return view('halaman_admin.index');
+});
