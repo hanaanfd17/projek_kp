@@ -1,29 +1,39 @@
-@extends('voyager::master')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Documents</title>
+</head>
+<body>
+    <!-- Bagian Head -->
+    @include('hasil_ph.partials.head')
 
-@section('page_title', 'View Documents')
-
-@section('content')
-    @include('partials.head')
-
+    <!-- Konten Utama -->
     <div id="content" class="closingorig">
-        @include('partials.profile')
-        @include('partials.data')
+        @include('hasil_ph.partials.profile')
+        @include('hasil_ph.partials.data')
+
         <div class="footer">
-            @include('partials.pendapatan')
-            @include('partials.hutang')
-            @include('partials.footer')
+            @include('hasil_ph.partials.pendapatan')
+            @include('hasil_ph.partials.hutang')
+            @include('hasil_ph.partials.footer')
         </div>
     </div>
-    <div style="text-align: center;">
+
+    <!-- Tombol untuk Switch Mode dan Print -->
+    <div style="text-align: center; margin-top: 20px;">
         <button id="toggleButton">Switch Mode</button>
         <button id="printButton">Print</button>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         const toggleButton = document.getElementById('toggleButton');
         const printButton = document.getElementById('printButton');
         const content = document.getElementById('content');
 
+        // Fungsi untuk switch mode
         toggleButton.addEventListener('click', () => {
             if (content.classList.contains('closing')) {
                 content.classList.remove('closing');
@@ -34,18 +44,16 @@
             }
         });
 
+        // Fungsi untuk mencetak konten
         printButton.addEventListener('click', () => {
-            // Hide animations by temporarily removing the closing class
             const currentClass = content.classList.contains('closing') ? 'closing' : 'closingorig';
             if (currentClass === 'closing') {
                 content.classList.remove('closing');
                 content.classList.add('closingorig');
             }
 
-            // Create a new window
+            // Membuka jendela baru untuk print
             const printWindow = window.open('', '_blank');
-
-            // Add content to the new window
             printWindow.document.open();
             printWindow.document.write(`
                 <!DOCTYPE html>
@@ -54,48 +62,19 @@
                     <title>Print</title>
                     <style>
                         @media print {
-                            body {
-                            transform: scale(0.9);
-                            font-size:9px;
-                            }
-                            .closing, .closingorig {
-                            }
-                             .underline {
-      text-decoration: underline;
-  }
-  .container {
-      width: 55%;
-      margin: auto;
-  }
-  .header, .content, .footer {
-      border: 1px solid transparent;
-      
-  }
-  .header table, .content table {
-      width: 100%;
-      border-collapse: collapse;
-  }
-  .header td, .content td {
-      border: 1px solid transparent;
-  }
-  .footer table {
-      width: 100%;
-  }
-  .footer td {
-      padding: 5px;
-  }
-  .header-text {
-      text-align: center;
-  }
-  .center-text {
-      text-align: center;
-  }
-  .line {
-      border-top: 1px solid #000;
-      margin: 20px 0;
-  }
+                            body { transform: scale(0.9); font-size: 9px; }
+                            .closing, .closingorig { }
+                            .underline { text-decoration: underline; }
+                            .container { width: 55%; margin: auto; }
+                            .header, .content, .footer { border: 1px solid transparent; }
+                            .header table, .content table { width: 100%; border-collapse: collapse; }
+                            .header td, .content td { border: 1px solid transparent; }
+                            .footer table { width: 100%; }
+                            .footer td { padding: 5px; }
+                            .header-text { text-align: center; }
+                            .center-text { text-align: center; }
+                            .line { border-top: 1px solid #000; margin: 20px 0; }
                         }
-                        /* Add other print styles if necessary */
                     </style>
                 </head>
                 <body>
@@ -105,18 +84,18 @@
             `);
             printWindow.document.close();
 
-            // Wait for the document to be fully loaded before printing
             printWindow.onload = function () {
-                printWindow.focus(); // Necessary for IE
+                printWindow.focus();
                 printWindow.print();
-                printWindow.close(); // Close the print window after printing
+                printWindow.close();
             };
 
-            // Restore the original class
+            // Mengembalikan kelas asli setelah print
             if (currentClass === 'closing') {
                 content.classList.remove('closingorig');
                 content.classList.add('closing');
             }
         });
     </script>
-@endsection
+</body>
+</html>

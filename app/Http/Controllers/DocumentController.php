@@ -19,16 +19,35 @@ use Hashids\Hashids;
 class DocumentController extends Controller
 {
     public function showReport(Request $request)
-{
-    try {
-        $encryptedId = $request->input('Id');
-        $id = Crypt::decryptString($encryptedId);
-        
-        return view('report', compact('id'));
-    } catch (\Exception $e) {
-        return abort(404); 
+    {
+        try {
+            // Ambil nilai `Id` yang dienkripsi dari request
+            $encryptedId = $request->input('Id');
+    
+            // Log nilai `encryptedId` untuk debugging
+            \Log::info('Encrypted ID diterima:', ['encryptedId' => $encryptedId]);
+    
+            // Cek jika `encryptedId` tidak ada
+            if (!$encryptedId) {
+                \Log::error('Parameter ID tidak ditemukan di request');
+                return abort(404, 'Parameter ID tidak ditemukan');
+            }
+    
+            // Dekripsi `encryptedId`
+            $id = Crypt::decryptString($encryptedId);
+    
+            // Log nilai setelah dekripsi
+            \Log::info('ID setelah dekripsi:', ['id' => $id]);
+    
+            // Kembalikan view dengan ID yang sudah didekripsi
+            return view('hasil_ph.report', compact('id'));
+        } catch (\Exception $e) {
+            // Log pesan error jika terjadi kesalahan
+            \Log::error('Gagal mendekripsi ID: ' . $e->getMessage());
+            return abort(404, 'Gagal mendekripsi ID');
+        }
     }
-}
+    
 
     public function showDataMasuk()
     {
