@@ -1958,3 +1958,145 @@ blockquote {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Gaya untuk tabel */
+.styled-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  background-color: rgba(45, 45, 45, 0.9); /* Background abu-abu tua dengan sedikit transparansi */
+  color: #ffffff; /* Teks putih */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.styled-table thead tr {
+  background-color: #006f4b; /* Warna hijau lebih gelap */
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.styled-table th, 
+.styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #333; /* Border lebih gelap agar kontras */
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #555;
+  transition: background-color 0.3s;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: rgba(70, 70, 70, 0.7); /* Baris genap abu-abu transparan */
+}
+
+.styled-table tbody tr:hover {
+  background-color: rgba(90, 90, 90, 0.9); /* Background lebih gelap saat hover */
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #006f4b; /* Border hijau lebih gelap di akhir tabel */
+}
+
+.styled-table a {
+  text-decoration: none;
+  color: #66ccff; /* Warna link lebih cerah */
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.styled-table a:hover {
+  color: #3399cc; /* Warna link lebih gelap saat dihover */
+}
+
+/* Chat Area Container */
+.chat-area {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Heading */
+.chat-area h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #4CAF50; /* Green text */
+  margin-bottom: 20px;
+}
+
+/* Message Container */
+.message-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Message Box (user and AI) */
+.message-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 5px 0;
+}
+
+/* Text Area for Messages */
+.frm-textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 80px;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+/* Response Text Area (aligned to the right) */
+.response-area {
+  background-color: #e0f7fa;
+  text-align: right;
+  color: #00796b; /* Dark green text for response */
+}
+
+/* Send Button */
+.send-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-btn:hover {
+  background-color: #45a049;
+}
+
+/* Audio Container */
+.audio-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.audio-container audio {
+  max-width: 100%;
+  margin: 5px 0;
+}
