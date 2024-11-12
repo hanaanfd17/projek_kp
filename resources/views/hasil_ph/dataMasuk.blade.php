@@ -16,7 +16,7 @@
 
 <!-- Chatbot Section -->
 <div id="chat-area" class="chat-area" style="margin-top: 160px;">
-    <h2>Chat with AI</h2>
+    <h2>Quick Question</h2>
     <div id="message-container" class="message-container"></div>
     
     <!-- Input section for user to type their message -->
