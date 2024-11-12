@@ -79,7 +79,7 @@ class AuthController extends Controller
         $inforegister = [
             'fullname' => $request->fullname,
             'email' => $request->email,
-            'password' => $request->password,
+            'password' => bcrypt($request->password),
             'gambar' => $nama_gambar,
             'verify_key' => $str,
         ];
