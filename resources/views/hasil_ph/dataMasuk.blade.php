@@ -1,28 +1,33 @@
 @include('hasil_ph.navhas')
 
-<div class="glitch">
-    <table id="data-masuk-table" class="styled-table">
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>Ku Tebu</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
+<!-- Container for table and chatbot -->
+<div class="custom-container">
+    <!-- Tabel Data Masuk -->
+    <div class="custom-glitch-table">
+        <h2 class="table-title">List Item</h2>
+        <table id="data-masuk-table" class="styled-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Ku Tebu</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
 
-<!-- Chatbot Section -->
-<div id="chat-area" class="chat-area" style="margin-top: 160px;">
-    <h2>Quick Question</h2>
-    <div id="message-container" class="message-container"></div>
-    
-    <!-- Input section for user to type their message -->
-    <div class="message-box">
-        <textarea class="frm-textarea" placeholder="Masukkan teks di sini"></textarea>
-        <button id="send-btn" class="send-btn">Kirim</button>
+    <!-- Chatbot Section -->
+    <div id="chat-area" class="custom-chat-area">
+        <h2 class="chat-title">Quick Question</h2>
+        <div id="message-container" class="custom-message-container"></div>
+
+        <!-- Input section for user to type their message -->
+        <div class="custom-message-box">
+            <textarea class="custom-textarea" placeholder="Masukkan teks di sini"></textarea>
+            <button id="send-btn" class="custom-send-btn">Kirim</button>
+        </div>
     </div>
 </div>
 
