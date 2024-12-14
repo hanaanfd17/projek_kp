@@ -1,0 +1,24 @@
+{{-- new --}}
+
+                <a href="/damatambah" class="btn-sm btn-primary text-decoration-none">Tambah data</a>
+
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $item)
+                                <li>{{ $item }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                @if (Session::has('success'))
+                    <script>
+                        document.addEventListener('DOMContentLoaded', function() {
+                            Swal.fire(
+                                'Sukses',
+                                '{{ Session::get('success') }}',
+                                'success'
+                            );
+                        });
+                    </script>
+                @endif
